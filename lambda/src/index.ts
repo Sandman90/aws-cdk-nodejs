@@ -57,7 +57,7 @@ export const handler: Handler = async (event: APIGatewayProxyEvent): Promise<API
 
     return {
       statusCode: 200,
-      body: JSON.stringify({message: "Succesfully Authenticated", token}),
+      body: JSON.stringify({message: "Successfully Authenticated", token}),
     }
 
   } catch(error) {
